@@ -13,7 +13,7 @@ Since Crypto Ancienne cannot run natively under classic Mac OS I always wanted t
 
 ## Prerequisites
 
-- Raspberry Pi: I ran this on the first model with only 128mb of ram so any should do.
+- Raspberry Pi: I ran this on the first model with only 256mb of ram so any should do.
 - Classilla 9.3.4b: You can download it [here](https://sourceforge.net/projects/classilla/files/9.3.4b/).
 
 ## Instructions
@@ -24,7 +24,7 @@ Since Crypto Ancienne cannot run natively under classic Mac OS I always wanted t
 5. `cc -DPROMISCUOUS -O3 -o micro_inetd_any micro_inetd.c`
 6. `./micro_inetd_any 8765 ./carl -p`
 
-Crypto Ancienne should be running now for you to use as a proxy in Clasilla. Follow the [Configuring and Using Classilla](https://www.floodgap.com/software/classilla/carl.html) guide to set it up.
+Crypto Ancienne should be running now for you to use as a proxy in Classilla. Follow the [Configuring and Using Classilla](https://www.floodgap.com/software/classilla/carl.html) guide to set it up.
 
 ## Licenses and copyrights
 
