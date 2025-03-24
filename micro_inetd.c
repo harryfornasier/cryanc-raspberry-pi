@@ -53,7 +53,6 @@ static void child_handler( int sig );
 static char* argv0;
 
 
-typedef unsigned long socklen_t;
 
 int
 main( int argc, char* argv[] )
